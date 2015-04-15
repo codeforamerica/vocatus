@@ -15,6 +15,10 @@ Vocatus is an automation of several of the most important ways that patients sho
 
 In fact, each of these reporting options represents an almost completely distinct workflow, with different steps depending on who needs to be kept in the loop. 
 
+## Shared functions
+Use the most recent NPPES data for contact information for providers and to create a "which provider" chooser.... allowing patients to quickly choose which healthcare provider or organization that they are having the issue with...
+
+
 ## Health insurance coverage reporting
 Hopefully which providers are covered under which insurance plans should be open data soon.
 
@@ -22,6 +26,7 @@ When this becomes true there will need to be a way for patients to tell insuranc
 If the provider is not removed after a reasonable amount of time after the provider was reported as "not in network" the application should contact the provider (automatically send a fax probably), to verify whether they are actually in or out of network. (it is possible that the patients might have got it wrong for some reason). 
 
 This functionality should be combined with a way-back-machine type functionality that will show when doctors are added or removed from the insurance plan networks.... 
+
 
 ## Refusal to provide access to patient records. 
 
@@ -36,7 +41,23 @@ This functionality should be combined with a way-back-machine type functionality
 * The system should fax messages to the provider whenever a timer has passed that would cause the provider to be reported to OCR. 
 * If possible, the system should be designed using a clean REST design so that third-party applications could make HIPAA requests through the application... 
 * The system would be momentarily hosting PHI, and will need to hosted on something like Firehost or equivlent
+* We would need to get a contribution of time from on the good Health IT lawyers we know regarding the details of the HIPAA record request process... for instance, there are some state laws which might provide greater access rights than HIPAA and also there might be some states in which automatically reporting to the state attorneys general might be better than working with OCR...
+* Providers sometimes refuse to provide access to health data to third parties who are designated by the patient. This is against the rules too... 
+* The site should provide a browseable shit-list of providers that over-charge for copies, who refuse to provide digital data, or who make other crappy excuses...
 
-##  
+## Interoperabiltiy reporting
+* It would be facinating to have a system that would allow patients to report when they are required to sneaker-net data between two providers.
+* Choose the start and end providers.. and note who is blocking the process, allowing to document the excuses involved
+* Could be used to specifically target a protocol like Direct, or could be used generally across protocols
 
+
+## Adverse event reporting  
+* This should be the last thing built...
+* Should be a front end to http://www.fda.gov/Safety/MedWatch/ or autogenerate the pdf form.
+* Should use rxNorm to get reliable medication chooser... perhaps the pillbox/pill image app data or something else like...
+* 
+
+## Other
+* We should ask other patient communities what they would like to "report" or otherwise track... and who they want to do this with.
+* Obviously we need to ensure that this does not become a healthgrades style "place to generally complians" but be issue-specific and remain targeted.
 
