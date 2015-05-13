@@ -1,19 +1,18 @@
 # vocatus
 An automated advocate for patient rights
 
-In some cases, the healthcare system relies on "patient reporting of" in order to function properly. 
+BLUF: Its a challenge for individual patients and their families to serve as advocates at the healthcare system level, but their engagement and participation are crucial to creating more user centered health and human services. In particular there is a groundswell of patient activity, and regulatory urgency, around personal health data access and data types that are currently unavailable or unreliable when needed to make important decisions, such as physician network and formulary data. 
 
-Vocatus is an automation of several of the most important ways that patients should report information. Specifically:
+Vocatus is an automation of several of the most important ways that patients can affirm their health data rights and improve data they need for key decisions through reporting their experiences. A few common examples include:
 
-* Reporting to insurance companies, when healthcare providers are not covered by their insurance plans.
-* Reporting to [HHS OCR](http://www.hhs.gov/ocr/office/) when a HIPAA request has been ignored.
-* Reporting when a provider refuses to accept email or provide access to data digitally because HIPAA "does not allow it" (b/c it does allow it...
-* Reporting when a provider refuses to accept a transmission of digital data as part of "View, Download and Transmit"
-* Reporting when a provider refuses to transmit data in mechanism requested
+* Reporting to [HHS OCR](http://www.hhs.gov/ocr/office/) when a request for health data access has been refused or incorrectly responded to.
+* Reporting to OCR and/or a health system leader when a provider refuses to accept email or provide access to data digitally because HIPAA "does not allow it" (because HIPAA does allow it, and its a patient's right). 
+* Reporting to a health system leader when a provider refuses to transmit data in the reasonable method requested by a patient or their representative, or accept the transmission of data, as part of Meaningful Use "View, Download and Transmit"
+* Reporting to insurance companies when healthcare provider network information is incorrect. 
 * Reporting reactions to medications to the FDA.
 * etc.
 
-In fact, each of these reporting options represents an almost completely distinct workflow, with different steps depending on who needs to be kept in the loop. 
+Each of these reporting options represents a similar workflow, but with different actors to report to, and information to report. Due to plans for a Patient DAta Day of Action this July 4th, 2015, we propose this tool be prototyped for the first and second use cases described above. 
 
 ## Shared functions
 Use the most recent NPPES data for contact information for providers and to create a "which provider" chooser.... allowing patients to quickly choose which healthcare provider or organization that they are having the issue with...
@@ -26,7 +25,6 @@ When this becomes true there will need to be a way for patients to tell insuranc
 If the provider is not removed after a reasonable amount of time after the provider was reported as "not in network" the application should contact the provider (automatically send a fax probably), to verify whether they are actually in or out of network. (it is possible that the patients might have got it wrong for some reason). 
 
 This functionality should be combined with a way-back-machine type functionality that will show when doctors are added or removed from the insurance plan networks.... 
-
 
 ## Refusal to provide access to patient records. 
 
