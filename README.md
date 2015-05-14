@@ -1,9 +1,11 @@
 # vocatus
 An automated advocate for patient rights
 
-BLUF: Its a challenge for individual patients and their families to serve as advocates at the healthcare system level, but their engagement and participation are crucial to creating more user centered health and human services. In particular there is a groundswell of patient activity, and regulatory urgency, around personal health data access and data types that are currently unavailable or unreliable when needed to make important decisions, such as physician network and formulary data. 
+BLUF: Its a challenge for individual patients and their families to serve as advocates at the healthcare system level, but their engagement and participation are crucial to creating more user centered health and human services. In particular there is a groundswell of patient activity, and regulatory urgency, around personal health data access and data types that are currently unavailable or unreliable when needed to make important decisions (such as physician network, cost, and medication formulary data). 
 
-Vocatus is an automation of several of the most important ways that patients can affirm their health data rights and improve data they need for key decisions through reporting their experiences. A few common examples include:
+Vocatus is an automation of several of the most important ways that patients can affirm their health data rights and improve data they need for key decisions through reporting their experiences. 
+
+A few common examples include:
 
 * Reporting to [HHS OCR](http://www.hhs.gov/ocr/office/) when a request for health data access has been refused or incorrectly responded to.
 * Reporting to OCR and/or a health system leader when a provider refuses to accept email or provide access to data digitally because HIPAA "does not allow it" (because HIPAA does allow it, and its a patient's right). 
