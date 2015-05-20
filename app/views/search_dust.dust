@@ -1,0 +1,40 @@
+<h1> Matching Providers</h1>
+{?results}
+<table id='sorted_table' class='tablesorter-bootstrap'>
+			<thead style='white-space: nowrap;'>
+			<tr>
+			<th> <i class='icon-sort'></i> Name </th>
+			<th> <i class='icon-sort'></i> Phone </th>
+			<th> <i class='icon-sort'></i> Address </th>
+			<th> <i class='icon-sort'></i> Provider Type </th>
+			</tr>
+			</thead>
+			<tbody>
+
+{#results}
+<tr id='{npi}' class='tr_{npi_type}'>
+                                <td>
+                                        <a href='/finalapproval/{npi}/'>
+                                                <span class='name_{npi_type}'>{org_name} {last_name},{first_name} </span> 
+                                        </a>
+                                </td>
+                                <td>
+{phone}
+				</td>
+                                <td>
+                                <span class='address'> {address}, {city} {state}, {zip}</span> 
+                                </td>
+                                <td>
+                                <span class='tax'>({#tax_array} {description}  {/tax_array})</span> 
+                                </td>
+                                    
+                </tr>
+{/results}        
+
+
+
+
+
+</tbody>
+</table>
+{/results}

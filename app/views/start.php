@@ -46,7 +46,7 @@ This system exists to enable all patients to have reliable access to their healt
       </div>
 
 
-<form method='POST' action='doctorchoose' class="form-horizontal">
+<form method='POST' action='providerchoose' class="form-horizontal">
 <fieldset>
 
 <!-- Form Name -->
@@ -114,7 +114,7 @@ you know what you are getting into with this request.
 
 
 
-
+<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 

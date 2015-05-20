@@ -1,0 +1,2 @@
+#!/bin/sh
+dustc search_dust.dust > ../../public/dust/search_dust.js
