@@ -4,8 +4,7 @@ class BigFormController extends BaseController{
 
 
 	public function showFirstPage(){
-		$api_url = "https://patchlocal.ft1.us/";
-		return View::make('start',array('api_url' => $api_url));
+		return View::make('start');
 	}
 
 
@@ -23,7 +22,12 @@ class BigFormController extends BaseController{
 			exit();
 		}
 
-		$api_url = "http://patchlocal.ft1.us/";
+		if(strpos(Request::root(),'local') !== false){
+			$api_url = "http://patchlocal.ft1.us/";
+		}else{
+			$api_url = "http://patch.ft1.us/";
+		}
+
 		return View::make('providerchoose',array('api_url' => $api_url));
 
 	}
