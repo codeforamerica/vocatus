@@ -1,6 +1,6 @@
 # vocatus
 
-Alpha: vocatus.io
+Alpha: [Vocatus.io] (http://vocatus.io)
 
 Vocatus is a digital advocate for patient data rights that makes it easier to request medical records, capture whether that request was successful, and provide a feedback loop to the people who should care at healthcare institutions, in the media, and federal agencies like the [Office of Civil Liberties] (http://www.hhs.gov/ocr/office/). 
 
