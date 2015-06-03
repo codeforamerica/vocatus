@@ -2,13 +2,15 @@
 
 Alpha: [Vocatus.io] (http://vocatus.io)
 
-Vocatus is a digital advocate for patient data rights that makes it easier to request medical records, capture whether that request was successful, and provide a feedback loop to the people who should care at healthcare institutions, in the media, and federal agencies like the [Office of Civil Liberties] (http://www.hhs.gov/ocr/office/). 
+Vocatus is a digital advocate for patient data rights that makes it easier to request medical records, capture whether that request was successful, and provide a feedback loop to the people who should care at healthcare institutions, in the media, and federal agencies like the [Office for Civil Rights] (http://www.hhs.gov/ocr/office/). 
 
 BLUF: 
 
-Its a challenge for individual patients and their families to serve as advocates at the healthcare system level, but their voice is crucial to driving user centered health and human services. In particular there is a groundswell of patient advocacy around access to personal health data, especially in digital formats. There are mounting stories of patients coming to harm when they cannot easily access this data, and a [proposed weakening] (https://www.federalregister.gov/articles/2015/04/15/2015-08514/medicare-and-medicaid-programs-electronic-health-record-incentive-program-modifications-to#p-219) of patient data access requirements in the Meaningful Use federal incentive program for electronic health records. Our hypothesis is that by bringing high volume, data-driven public and federal agency attention to this issue we can convince healthcare delivery system leaders and their legal teams to make this problem a priority. 
+Its a challenge for individual patients and their families to serve as advocates at the healthcare system level, but their voice is crucial to driving user centered health and human services. In particular there is a groundswell of patient advocacy around access to personal health data, especially in digital formats. Despite a legal right to access and get a copy of ones personal medical record, there are mounting stories of patients having [significant challenges] (http://www.nytimes.com/2014/11/09/sunday-review/medical-records-top-secret.html?_r=0) accessing their data, and even coming to harm. A recent [proposed weakening] (https://www.federalregister.gov/articles/2015/04/15/2015-08514/medicare-and-medicaid-programs-electronic-health-record-incentive-program-modifications-to#p-219) of patient data access incentives in the Meaningful Use federal incentive program for electronic health records has many patients and patient advocates concerned that the situation is about to get even worse.  
 
-Our initial goal is to make it easy for patients to submit a standard legal request for their medical records, and then capture whether their healthcare provider appropriately complies with that request under HIPAA through a basic two-pronged follow up strategy. By collecting this information we can all learn more about the institutions where patient data access is working and where it is not, bring data driven public attention to this issue through the media, and amplify patient voices by joining them together when they report serious violations of their rights to the Office of Civil Liberties. 
+Our hypothesis is that by bringing high volume, data-driven public and federal agency attention to the gaps between policy intent, consumer demand, and the on the ground reality of trying to access medical records,  we can convince healthcare delivery system leaders and their legal teams to make this a priority. 
+
+Our initial goal is to make it easy for patients to submit a standard legal request for their medical records, and then capture whether their healthcare provider appropriately complies with that request under HIPAA through a basic two-pronged follow up strategy. By collecting this information we can all learn more about the institutions where patient data access is working and where it is not, bring data driven public attention to this issue through the media, and amplify patient voices by joining them together when they report serious violations of their rights to the Office for Civil Rights. 
 
 MVP Goal: 
 
@@ -20,7 +22,7 @@ National Patient Day team wants to use MVP to learn: what we should ask for (rec
 Post MVP-Goal:
 
 Get C-Suite leaders and their lawyers to make fixing this problem a priority.
-Convince OCR to start prioritizing these complaints. 
+Share select complaints, in collaboration with the patient, to OCR. 
 
 Theory of change for post MVP goal:
 
@@ -62,7 +64,7 @@ Internal: - for now only Rebecca and Nate will access this, just in case somebod
   c. Way to easily track follow-up results from text and email surveys, and flag those that require personal follow-up 
 
 
-While out of scope for the MVP, we are interested in developing a public dashboard for patient data access in the spirit of the [US City Open Data Census] (http://us-city.census.okfn.org/) which could be shared back with healthcare organizations and/or the public, and a more automated way of populating patient reports to the Office of Civil Liberties. 
+While out of scope for the MVP, we are interested in developing a public dashboard for patient data access in the spirit of the [US City Open Data Census] (http://us-city.census.okfn.org/) which could be shared back with healthcare organizations and/or the public, and a more automated way of populating patient reports to the Office of Civil Rights. 
 
 
 
