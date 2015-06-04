@@ -6,7 +6,7 @@ Alpha: [Vocatus.io] (http://vocatus.io)
 
 Vocatus is a digital advocate for patient data rights that makes it easier to request medical records, capture whether that request was successful, and provide a feedback loop to the people who should care at healthcare institutions, in the media, and federal agencies like the [Office for Civil Rights] (http://www.hhs.gov/ocr/office/). Our first user group are the patient "tracers" participating in Data Independence Day. 
 
-Background: 
+*Background:* 
 
 It is a challenge for individual patients and their families to serve as advocates at the healthcare system level, but their voice is crucial to driving user centered health and human services. In particular there is a groundswell of patient advocacy around access to personal health data, especially in digital formats. Despite a legal right to access and get a copy of ones personal medical record, there are mounting stories of patients having [significant challenges] (http://www.nytimes.com/2014/11/09/sunday-review/medical-records-top-secret.html?_r=0) accessing their data, and even coming to harm when referrals are delayed or allergies are not known during emergences. A recent [proposed weakening] (https://www.federalregister.gov/articles/2015/04/15/2015-08514/medicare-and-medicaid-programs-electronic-health-record-incentive-program-modifications-to#p-219) of patient data access incentives in the Meaningful Use federal incentive program for electronic health records has many patients and patient advocates concerned that the situation is about to get even worse.  
 
