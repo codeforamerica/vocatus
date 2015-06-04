@@ -4,7 +4,7 @@ Alpha: [Vocatus.io] (http://vocatus.io)
 
 **BLUF:** 
 
-Vocatus is a digital advocate for patient data rights that makes it easier to request medical records, capture whether that request was successful, and provide a feedback loop to the people who should care at healthcare institutions, in the media, and federal agencies like the [Office for Civil Rights] (http://www.hhs.gov/ocr/office/). Our first user group are the patient "tracers" participating in Data Independence Day. 
+Vocatus is a simple tool that makes it easier for patients and their proxy to request medical records, capture whether that request was successful, and provide a feedback loop to healthcare institutions, the public, and government agencies like the [Office for Civil Rights] (http://www.hhs.gov/ocr/office/). Our first user group are the patient "tracers" participating in Data Independence Day. 
 
 *Background:* 
 
